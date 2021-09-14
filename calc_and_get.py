@@ -6,7 +6,7 @@ def calculate(h: int, m:int):
 
 def get_end_time(hours, minutes):
     time_to_exit = calculate(int(hours), int(minutes)).strftime('%H:%M:%S')
-    return 'End working time to {}'.format(time_to_exit)
+    return 'The end of the working day is at {}'.format(time_to_exit)
 
 if __name__ == '__main__':
     get_end_time()
